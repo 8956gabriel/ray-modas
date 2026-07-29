@@ -23,22 +23,3 @@ export default function Contato() {
           </a>
         </ScrollReveal>
         <ScrollReveal delay={0.1}>
-          
-            href="https://instagram.com/raymodas70"
-            target="_blank"
-            className="flex flex-col items-center gap-3 rounded-xl2 glass p-8 text-center shadow-soft transition hover:-translate-y-1 hover:shadow-card"
-          >
-            <Instagram className="text-gold-dark" size={22} strokeWidth={1.4} />
-            <span className="font-body text-sm text-charcoal">@raymodas70</span>
-          </a>
-        </ScrollReveal>
-        <ScrollReveal delay={0.15}>
-          <div className="flex flex-col items-center gap-3 rounded-xl2 glass p-8 text-center shadow-soft">
-            <MapPin className="text-gold-dark" size={22} strokeWidth={1.4} />
-            <span className="font-body text-sm text-charcoal">Loja 100% online</span>
-          </div>
-        </ScrollReveal>
-      </div>
-    </section>
-  );
-}
